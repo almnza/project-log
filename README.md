@@ -3,10 +3,10 @@ This repository was inspired by a [comment](https://news.ycombinator.com/item?id
 In the cited comment, a user shared a template they use for documenting their work on project. I have created a shell script that automatically generates a new template and prints it standard output.
 
 ## Usage
-To create a new log from the template, use:
+To create a new log from the template, use:  
 ```project-log 'title'```
 
-The command prints to standard output. Use pipes to save to a file:
+The command prints to standard output. Use pipes to save to a file: 
 ```project-log 'title' > logfile.txt```
 
 ## Setup
