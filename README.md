@@ -10,7 +10,7 @@ The command prints to standard output. Use pipes to save to a file:
 ```project-log 'title' > logfile.txt```
 
 ## Setup
-1. Create a link for the file so it is accessible without needing to specify its full path:
-```touch /etc/local/bin/project-log && ln -s project-log.sh /etc/local/bin/project-log```
-2. Make the link executable:
-```chmod u+x /etc/local/bin/project-log```
+1. Create a link for the file so it is accessible without needing to specify its full path:  
+```touch /usr/local/bin/project-log && ln -s project-log.sh /usr/local/bin/project-log```
+2. Make the link executable:  
+```chmod u+x /usr/local/bin/project-log```
